@@ -1,0 +1,28 @@
+{
+    "name": "Card",
+    "fields": [
+        {
+            "fieldName": "cardNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "balance",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190106164334",
+    "entityTableName": "card",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "banking",
+    "applications": "*",
+    "microserviceName": "banking"
+}

@@ -1,0 +1,12 @@
+
+entity Card
+{
+  cardNumber String ,
+  pin String , 
+  balance Double 
+}
+
+
+
+
+

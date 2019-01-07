@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.banking.app"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "banking",
+    "packageName": "com.banking.app",
+    "packageFolder": "com/banking/app",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDRjZDc3OWExMGZlYzVmYzIwODI5OTg2MjlkZjViMmI2YjQwOTgyODFmNzNlMmZjMThlYmU2M2Q0YzRlZmVmNjkyYjgxOWUzYjIwMDcxZmJiNjFjNGUyOTY1MmIyNGQ5NGY0ZjNiYmM0Njg2YTY4NWUwODIyYzRjM2QzZDk5ZTE=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

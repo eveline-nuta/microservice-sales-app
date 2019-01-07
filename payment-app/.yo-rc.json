@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.payment.app"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "payment",
+    "packageName": "com.payment.app",
+    "packageFolder": "com/payment/app",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjQ2ZjVmMzk1Yjc3YWFmNDJjZTQzZDE1OWQxYzEwYmZhMDA0NDM3NGE0N2JjZGU5YjBjYWIzMWNhMTY5MTI4YmE3ZDI1YWEyOGM5ZTIxNjEzMmNjZmY2MTdiNGRjZDkwYmUwNDQxZmRmZGZhMmQzMzQzYzM0M2FkODJkOGY1NzU=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

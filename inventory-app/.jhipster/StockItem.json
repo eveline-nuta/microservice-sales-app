@@ -1,0 +1,27 @@
+{
+    "name": "StockItem",
+    "fields": [
+        {
+            "fieldName": "numberOfProducts",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "product",
+            "otherEntityName": "product",
+            "otherEntityRelationshipName": "stockItem"
+        }
+    ],
+    "changelogDate": "20190106164922",
+    "entityTableName": "stock_item",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "inventory",
+    "applications": "*",
+    "microserviceName": "inventory"
+}

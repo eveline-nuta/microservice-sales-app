@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.inventory.app"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "inventory",
+    "packageName": "com.inventory.app",
+    "packageFolder": "com/inventory/app",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2UxMzZmZTgzN2RkZWUwOTM2ZjExZTJmNDFjN2VjNjEyNTdiN2Q4MDEyYmRlNjg1NTExNmQ5MGIxZDNlNDljMDdjYzQzNjBhNzk2Y2I3YzI1ZjRhZjY3ZjYxZGU5ZGI4ODA2MzNmZWE2YTNjZWQzOWQ2YzFhNjA5ODFkNTVmZjE=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

@@ -1,0 +1,23 @@
+
+entity StockItem
+{
+    numberOfProducts Integer
+
+}
+
+entity Product 
+{
+	name String,
+	price Double,
+	barcode String
+}
+
+relationship OneToMany {
+	StockItem{product} to Product
+}
+
+
+
+
+
+
