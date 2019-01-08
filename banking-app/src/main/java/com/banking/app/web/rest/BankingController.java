@@ -18,7 +18,7 @@ import java.util.UUID;
         @Autowired
         private CardRepository cardRepository;
 
-        @PostMapping("/verify-card/{cardNumber}/{pin}")
+        @GetMapping("/verify-card/{cardNumber}/{pin}")
         public Boolean verifyCard(@PathVariable String cardNumber, @PathVariable String pin) {
 
             Card card = cardRepository.findByCardNumber(cardNumber);
@@ -31,12 +31,10 @@ import java.util.UUID;
 
         }
 
-        @PostMapping("/debit-card/{price}/{cardNumber}")
+        @GetMapping("/debit-card/{price}/{cardNumber}")
         public Debit debitCard(@PathVariable Double price, @PathVariable String cardNumber) {
 
             Debit debit = new Debit();
-
-
             Card selectedCard = cardRepository.findByCardNumber(cardNumber);
 
             if (selectedCard != null && selectedCard.getBalance() >= price) {

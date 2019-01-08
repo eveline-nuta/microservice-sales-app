@@ -1,26 +1,28 @@
 package com.payment.app.web.rest;
-
+//	rest API o interfata care primeste requesturi si da response uri, poarta de intrare in app
 //import com.payment.app.domain.Card;
 
 import com.payment.app.domain.Debit;
+import com.payment.app.service.CardReaderManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URISyntaxException;
 
     /**
-     * CardReaderControllerResource controller
+     * CardReaderResource controller
      */
+
     @RestController
     @RequestMapping("/api/card-reader-controller")
     public class CardReaderResource {
 
-       // private BankService bankService;
+    @Autowired
+        private CardReaderManager manager;
 
-        public CardReaderResource(){
-           // this.bankService=new BankService();
-        }
         private final Logger log = LoggerFactory.getLogger(CardReaderResource.class);
 
 
@@ -30,8 +32,7 @@ import java.net.URISyntaxException;
         @PostMapping("/validate-card/{cardNumber}/{pin}")
         public Boolean validateCard(@PathVariable String cardNumber, @PathVariable String pin)
         {
-            return null;
-                //bankService.verifyCard(cardNumber, pin);
+            return manager.validateCard(cardNumber, pin);
         }
 
 
@@ -41,8 +42,7 @@ import java.net.URISyntaxException;
         @PostMapping("/debit-card/{price}/{cardNumber}")
         public Debit debitCard(@PathVariable Double price, @PathVariable String cardNumber)
         {
-            return null;
-            //bankService.debitCard(price, cardNumber);
+            return manager.debitCard(price, cardNumber);
         }
 
     }
