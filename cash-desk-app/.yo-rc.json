@@ -1,0 +1,33 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.cashdesk.app"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "gateway",
+        "baseName": "cashdesk",
+        "packageName": "com.cashdesk.app",
+        "packageFolder": "com/cashdesk/app",
+        "serverPort": "8084",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ODczZDQzZDFmN2ZjYmZlMDhiZTZmOTk2MWU4ZjVjNDVjNTNkOTMyMTVlMGY4Y2M3ZGMxNDg4YzA0NGVkMTE1NmJiODRhZTQ3ZTM5ZWVlNTc1YWFkYjU1OGQ0Y2M3ZTRkOTk0YzllYjYwZTNkYTdhYWNmYTY2ZTNlYTdmNmUyNGU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling"],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}

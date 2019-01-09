@@ -146,4 +146,4 @@ Procfile        text
 *.eot           binary
 *.otf           binary
 *.woff          binary
-*.woff2         binary
+*.woff2 binary
