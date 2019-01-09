@@ -2,7 +2,7 @@ cd cash-desk-app
 start cmd /k npm start
 start cmd /k mvnw
 cd..
-cd ServiceRegistry
+cd service-registry
 start cmd /k mvnw
 cd..
 cd inventory-app
