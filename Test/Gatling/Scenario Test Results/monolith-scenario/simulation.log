@@ -1,0 +1,25 @@
+RUN	SimulationMonolithScanProductsAndPayWithCard	3	simulationmonolithscanproductsandpaywithcard	1547593469334	 	2.0
+USER	SimulationMonolithScanProductsAndPayWithCard	1	START	1547593471294	1547593471294
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471412	1547593471472	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471535	1547593471561	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471563	1547593471617	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471621	1547593471647	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471648	1547593471673	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471675	1547593471696	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471697	1547593471715	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471716	1547593471738	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471739	1547593471764	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471765	1547593471796	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471799	1547593471842	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471843	1547593471879	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Verify Stock	1547593471882	1547593471917	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Get Product	1547593471918	1547593471955	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Validate Card	1547593471956	1547593472004	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Debit Card	1547593472005	1547593472031	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472032	1547593472063	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472064	1547593472096	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472097	1547593472134	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472136	1547593472158	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472161	1547593472188	OK	 
+REQUEST	SimulationMonolithScanProductsAndPayWithCard	1		Update Stock	1547593472189	1547593472213	OK	 
+USER	SimulationMonolithScanProductsAndPayWithCard	1	END	1547593471294	1547593472216

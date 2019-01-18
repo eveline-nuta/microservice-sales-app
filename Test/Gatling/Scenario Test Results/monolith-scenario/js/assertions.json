@@ -1,0 +1,10 @@
+{
+  "simulation": "SimulationMonolithScanProductsAndPayWithCard",
+  "simulationId": "3",
+  "start": 1547593469334,
+  "description": "",
+  "scenarios": ["SimulationMonolithScanProductsAndPayWithCard"],
+  "assertions": [
+
+  ]
+}

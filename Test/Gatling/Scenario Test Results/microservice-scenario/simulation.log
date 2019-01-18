@@ -1,0 +1,25 @@
+RUN	SimulationMicroserviceScanProductsAndPayWithCard	2	simulationmicroservicescanproductsandpaywithcard	1547578364404	2	2.0
+USER	SimulationMicroserviceScanProductsAndPayWithCard	1	START	1547578365678	1547578365678
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578365730	1547578365934	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578365963	1547578366019	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366021	1547578366038	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366039	1547578366064	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366065	1547578366083	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366084	1547578366098	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366101	1547578366113	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366115	1547578366133	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366134	1547578366156	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366157	1547578366187	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366188	1547578366203	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366204	1547578366229	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Verify Stock	1547578366230	1547578366243	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Get Product	1547578366244	1547578366256	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Validate Card	1547578366258	1547578366325	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Debit Card	1547578366329	1547578366367	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366368	1547578366382	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366383	1547578366415	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366417	1547578366452	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366453	1547578366469	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366470	1547578366486	OK	 
+REQUEST	SimulationMicroserviceScanProductsAndPayWithCard	1		Update Stock	1547578366487	1547578366504	OK	 
+USER	SimulationMicroserviceScanProductsAndPayWithCard	1	END	1547578365678	1547578366511

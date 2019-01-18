@@ -1,0 +1,10 @@
+{
+  "simulation": "InventoryFiveHundred",
+  "simulationId": "0",
+  "start": 1547738776169,
+  "description": "0",
+  "scenarios": ["Monolith Inventory", "Microservice Inventory"],
+  "assertions": [
+
+  ]
+}

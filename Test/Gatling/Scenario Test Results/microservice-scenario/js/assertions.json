@@ -1,0 +1,10 @@
+{
+  "simulation": "SimulationMicroserviceScanProductsAndPayWithCard",
+  "simulationId": "2",
+  "start": 1547578364404,
+  "description": "2",
+  "scenarios": ["SimulationMicroserviceScanProductsAndPayWithCard"],
+  "assertions": [
+
+  ]
+}

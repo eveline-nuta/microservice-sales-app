@@ -1,0 +1,239 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 25000,
+        "ok": 25000,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 758,
+        "ok": 758,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 62,
+        "ok": 62,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 29,
+        "ok": 29,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 143,
+        "ok": 143,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 348,
+        "ok": 348,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 25000,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 862.0689655172414,
+        "ok": 862.0689655172414,
+        "ko": 0
+    }
+},
+"contents": {
+"req_monolith-paymen-b8258": {
+        "type": "REQUEST",
+        "name": "Monolith Payment Debit Card",
+"path": "Monolith Payment Debit Card",
+"pathFormatted": "req_monolith-paymen-b8258",
+"stats": {
+    "name": "Monolith Payment Debit Card",
+    "numberOfRequests": {
+        "total": 12500,
+        "ok": 12500,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 758,
+        "ok": 758,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 63,
+        "ok": 63,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 28,
+        "ok": 28,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 144,
+        "ok": 144,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 349,
+        "ok": 349,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 12500,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 431.0344827586207,
+        "ok": 431.0344827586207,
+        "ko": 0
+    }
+}
+    },"req_microservice-pa-c3ce2": {
+        "type": "REQUEST",
+        "name": "Microservice Payment Debit Card",
+"path": "Microservice Payment Debit Card",
+"pathFormatted": "req_microservice-pa-c3ce2",
+"stats": {
+    "name": "Microservice Payment Debit Card",
+    "numberOfRequests": {
+        "total": 12500,
+        "ok": 12500,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 755,
+        "ok": 755,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 61,
+        "ok": 61,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 29,
+        "ok": 29,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 46,
+        "ok": 46,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 143,
+        "ok": 143,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 344,
+        "ok": 344,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 12500,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 431.0344827586207,
+        "ok": 431.0344827586207,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
