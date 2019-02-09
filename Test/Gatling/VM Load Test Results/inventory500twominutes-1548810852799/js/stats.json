@@ -1,0 +1,239 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 120000,
+        "ok": 703,
+        "ko": 119297
+    },
+    "minResponseTime": {
+        "total": 0,
+        "ok": 157,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 51041,
+        "ok": 51041,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 187,
+        "ok": 31849,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 2600,
+        "ok": 12046,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 0,
+        "ok": 33809,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 0,
+        "ok": 40184,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 0,
+        "ok": 47345,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3,
+        "ok": 49394,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 10,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 693,
+        "percentage": 1
+    },
+    "group4": {
+        "name": "failed",
+        "count": 119297,
+        "percentage": 99
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 779.2207792207793,
+        "ok": 4.564935064935065,
+        "ko": 774.6558441558442
+    }
+},
+"contents": {
+"req_monolith-invent-32532": {
+        "type": "REQUEST",
+        "name": "Monolith Inventory",
+"path": "Monolith Inventory",
+"pathFormatted": "req_monolith-invent-32532",
+"stats": {
+    "name": "Monolith Inventory",
+    "numberOfRequests": {
+        "total": 60000,
+        "ok": 359,
+        "ko": 59641
+    },
+    "minResponseTime": {
+        "total": 0,
+        "ok": 157,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 51041,
+        "ok": 51041,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 188,
+        "ok": 31358,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 2591,
+        "ok": 12031,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 0,
+        "ok": 33626,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 0,
+        "ok": 39001,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 0,
+        "ok": 46965,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 0,
+        "ok": 49604,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 10,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 349,
+        "percentage": 1
+    },
+    "group4": {
+        "name": "failed",
+        "count": 59641,
+        "percentage": 99
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 389.61038961038963,
+        "ok": 2.331168831168831,
+        "ko": 387.2792207792208
+    }
+}
+    },"req_microservice-in-753b9": {
+        "type": "REQUEST",
+        "name": "Microservice Inventory",
+"path": "Microservice Inventory",
+"pathFormatted": "req_microservice-in-753b9",
+"stats": {
+    "name": "Microservice Inventory",
+    "numberOfRequests": {
+        "total": 60000,
+        "ok": 344,
+        "ko": 59656
+    },
+    "minResponseTime": {
+        "total": 0,
+        "ok": 1385,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 51012,
+        "ok": 51012,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 186,
+        "ok": 32362,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 2608,
+        "ok": 12041,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 0,
+        "ok": 34222,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 0,
+        "ok": 40902,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 0,
+        "ok": 47586,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 178,
+        "ok": 49340,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 344,
+        "percentage": 1
+    },
+    "group4": {
+        "name": "failed",
+        "count": 59656,
+        "percentage": 99
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 389.61038961038963,
+        "ok": 2.2337662337662336,
+        "ko": 387.3766233766234
+    }
+}
+    }
+}
+
+}

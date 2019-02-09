@@ -1,0 +1,10 @@
+{
+  "simulation": "Multiple50TwoMins",
+  "simulationId": "multiple50twomins",
+  "start": 1548811627432,
+  "description": "",
+  "scenarios": ["MO VC", "MS VC", "MO GP", "MS GP"],
+  "assertions": [
+
+  ]
+}

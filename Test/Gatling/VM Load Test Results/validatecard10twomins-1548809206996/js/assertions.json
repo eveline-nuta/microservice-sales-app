@@ -1,0 +1,10 @@
+{
+  "simulation": "ValidateCard10TwoMins",
+  "simulationId": "validatecard10twomins",
+  "start": 1548809206996,
+  "description": "",
+  "scenarios": ["Monolith Payment Validate Card", "Microservice Payment Validate Card"],
+  "assertions": [
+
+  ]
+}
